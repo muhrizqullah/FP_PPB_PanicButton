@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_14sdp">
+
+    <EditText
+        android:id="@+id/alertDialogAddContactNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/alertDialogAddContactPhoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:layout_below="@+id/alertDialogAddContactNameEt"/>
+
+    <Button
+        android:id="@+id/alertDialogAddContactSubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/alertDialogAddContactPhoneEt"/>
+
+</RelativeLayout>
